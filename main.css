@@ -1,0 +1,13 @@
+img {
+    animation: rotate 4s infinite linear;
+    margin: 300px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
